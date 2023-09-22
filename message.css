@@ -1,0 +1,15 @@
+.button{
+    display: block;
+    background-color: orange;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    line-height:s 35px;
+    color:black;
+}
+.button:hover{
+    background-color: orangered;
+    color:whitesmoke;
+}
