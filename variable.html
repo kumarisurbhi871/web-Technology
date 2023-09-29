@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Example</title>
+    <script>
+        var num=10;
+        var num=60;
+        let num1=20;
+         const num2=30;
+         function value(){
+            let num1;
+            //var num;
+            num;//global var iska scope throughout the application.
+            num=20;
+            num1=50;
+         }
+         value();
+         document.write("<br>num="+num);
+         document.write("<br>num="+num1);
+         //num2=40;cannot be changed
+         document.write("<br>num="+num2);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

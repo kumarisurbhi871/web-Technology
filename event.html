@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function displayDate(obj)
+        {
+            obj.innerHTML=new Date();
+           if(obj)
+           {
+              this.innerHTML=new Date();
+           }
+           else{
+            document.getElementById("date").innerHTML=Date();
+           }
+        }
+    </script>
+</head>
+<body>
+    <button onCircle="displayDate();">show Date</button>
+    <p id="date"></p>
+    <h2 onMouseOver="displayDate(this)">This is h2(this) object</h2>
+</body>
+</html>
